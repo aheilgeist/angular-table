@@ -1,0 +1,29 @@
+table, th , td  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 15px;
+    background: rgba(239, 237, 239, .30);
+}
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+    background: rgba(239, 237, 239, .30);
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+    background: rgba(239, 237, 239, .30);
+}
+
+
+body {
+    background: url("BirthdayWallpaper.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 425px;
+    margin-left: 430px;
+
+}
