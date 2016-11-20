@@ -4,26 +4,25 @@ table, th , td  {
     padding: 15px;
     background: rgba(239, 237, 239, .30);
 }
-table tr:nth-child(odd) {
-    background-color: #f1f1f1;
-    background: rgba(239, 237, 239, .30);
-}
-table tr:nth-child(even) {
-    background-color: #ffffff;
-    background: rgba(239, 237, 239, .30);
-}
-
 
 body {
     background: url("BirthdayWallpaper.jpeg") no-repeat center center fixed;
     background-size: cover;
 }
 
+.note {
+
+    margin-top: 20px;
+
+    margin-right: 425px;
+    margin-left: 430px;
+
+}
 div {
     border: 1px solid black;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 425px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 423px;
     margin-left: 430px;
 
 }

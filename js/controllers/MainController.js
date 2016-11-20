@@ -1,5 +1,6 @@
-app.controller('MainController', ['$scope', function($scope) {
+angular.module('myApp', []).controller('MainController', function($scope) {
     $scope.names = [
+
         {
             firstName: 'Autumn',
             lastName: 'Heilgeist',
@@ -81,4 +82,7 @@ app.controller('MainController', ['$scope', function($scope) {
 
         }
     ];
-}]);
+    $scope.orderByMe = function(x) {
+        $scope.myOrderBy = x;
+    }
+});
